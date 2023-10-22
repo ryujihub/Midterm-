@@ -1,4 +1,8 @@
 /* Basic styling, feel free to expand and enhance this */
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,7 +22,7 @@ header {
 
 #promo {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .promo-item {
@@ -28,8 +32,44 @@ header {
     
 }
 
-.promo-item png {
-    width: 100%;
+.promo-item img {
+    padding: 0px;
+    
+}
+.pdescript1 {
+  text-align: center;
+  
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#promo2 {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.promo-item2 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    
+}
+
+.promo-item2 img {
+    padding: 0;
+  
+}
+.p1descript {
+  text-align: justify;
+}
+#descript {
+  margin-bottom: 0px;
 }
 .row::after {
   content: "";
