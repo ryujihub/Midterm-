@@ -132,6 +132,12 @@ header {
   margin-bottom: 0px;
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #cta {
     background-color: #FF9900;
     text-align: center;
