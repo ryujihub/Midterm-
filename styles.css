@@ -71,7 +71,7 @@ header {
 #descript {
   margin-bottom: 0px;
 }
-.row::after {
+.row::after2 {
   content: "";
   display: table;
   clear: both;
@@ -101,6 +101,7 @@ header {
 #descript {
   margin-bottom: 0px;
 }
+
 .row::after {
   content: "";
   display: table;
@@ -131,7 +132,6 @@ header {
 #descript {
   margin-bottom: 0px;
 }
-
 .row::after {
   content: "";
   display: table;
@@ -159,7 +159,8 @@ footer {
     color: #FFF;
     text-align: center;
     padding: 10px;
-    clear: both; /* Clear the float to move the footer below the content */
+    position: fixed;
+    bottom: 0;
 }
 @media (max-width: 768px) {
   .image-container {
