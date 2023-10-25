@@ -9,9 +9,7 @@ body {
     padding: 0;
 }
 
-h2{
-  text-align: top;
-}
+
 
 header {
     background-color: #FF9900;
@@ -20,7 +18,7 @@ header {
     padding: 20px;
 }
 
-#promo {
+#promo, #promo2, #promo3, #promo4 {
     text-align: center;
     padding: 5px;
 }
@@ -48,95 +46,13 @@ header {
 }
 
 
-#promo2 {
-    text-align: center;
-    padding: 5px;
-    
-}
-
-.promo-item2 {
-    float: left;
-    width: 30%;
-    padding: 5px;
-    
-}
-
-.promo-item2 img {
-    padding: 0;
-  
-}
-.p1descript {
-  text-align: justify;
-}
-#descript {
-  margin-bottom: 0px;
-}
-.row::after2 {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
-#promo3 {
-    text-align: center;
-    padding: 5px;
-    
-}
-
-.promo-item3 {
-    float: left;
-    width: 30%;
-    padding: 5px;
-    
-}
-
-.promo-item3 img {
-    padding: 0;
-  
-}
-.p1descript {
-  text-align: justify;
-}
-#descript {
-  margin-bottom: 0px;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
-#promo4 {
-    text-align: center;
-    padding: 5px;
-    
-}
 
-.promo-item4 {
-    float: left;
-    width: 30%;
-    padding: 5px;
-    
-}
 
-.promo-item4 img {
-    padding: 0;
-  
-}
-.p1descript {
-  text-align: justify;
-}
-#descript {
-  margin-bottom: 0px;
-}
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 button {
     background-color: #333;
@@ -162,9 +78,6 @@ button {
 
 footer {
   background-color: #FF9900;
-    
-    
-    
     position: fixed;
     bottom: 0;
     left: 0;
